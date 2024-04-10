@@ -656,5 +656,33 @@ const products = [
       "apparel",
       "mens"
     ]
-  }
+  },
+  {
+    id: "dfa65ef3-852u82v5c-00ri-0gpymyor90-zu75l0hl",
+    image: "images/products/backpack.jpg",
+    name: "Unisex - Black Backpack",
+    rating: {
+      stars: 4,
+      count: 623
+    },
+    priceCents: 1078,
+    keywords: [
+      "napsack",
+      "backpack",
+      "bag"
+    ]
+  },
+  {
+    id: "efils65ef3-8iqt3-ijpwt-do1fsoh3-998c1w1mv",
+    image: "images/products/umbrella.jpg",
+    name: "Motherland's Short umbrella",
+    rating: {
+      stars: 4.5,
+      count: 247
+    },
+    priceCents: 600,
+    keywords: [
+      "umbrella"
+    ]
+  },
 ];
