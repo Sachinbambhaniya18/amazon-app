@@ -1,3 +1,6 @@
+import { cart } from '../data/cart.js';
+import { products } from '../data/products.js';
+
 let productsHTML = '';
 
 products.forEach((product) => {
@@ -64,13 +67,13 @@ document.querySelectorAll('.js-add-to-cart')
       const addToCart = document.querySelector(`.added-to-cart-visible-${productId}`);
 
       clearTimeout(addToCart.timeoutId);
-      
+
       addToCart.style.opacity = "1";
-      
+
       addToCart.timeoutId = setTimeout(() => {
         addToCart.style.opacity = "0";
       }, 2000);
-      
+
       let matchingItem;
 
       cart.forEach((item) => {
