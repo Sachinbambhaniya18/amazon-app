@@ -1,4 +1,4 @@
-const cart = [];
+export const cart = [];
 
 
 export const addProductToCart = (productId, productQty) => {
@@ -19,8 +19,7 @@ export const addProductToCart = (productId, productQty) => {
         productId,
         quantity: productQty
       });
-    }
-  
+    } 
   }
 
   
